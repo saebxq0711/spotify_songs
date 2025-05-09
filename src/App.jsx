@@ -1,6 +1,6 @@
 // src/App.jsx
-const CLIENT_ID = "TU_CLIENT_ID"; // Reemplaza con tu Client ID
-const REDIRECT_URI = "http://localhost:5173/callback";
+const CLIENT_ID = "67b5d61bcd214dd380fa7537d81b1ffa"; // Reemplaza con tu Client ID
+const REDIRECT_URI = "https://spotify-love-songs.netlify.app";
 const SCOPES = ["user-library-read"];
 const AUTH_URL = `https://accounts.spotify.com/authorize?client_id=${CLIENT_ID}&response_type=token&redirect_uri=${encodeURIComponent(REDIRECT_URI)}&scope=${SCOPES.join('%20')}`;
 
