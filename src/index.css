@@ -1,0 +1,38 @@
+/* src/index.css */
+
+body {
+  margin: 0;
+  background-color: #121212;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+h1, h2 {
+  color: #1DB954;
+  text-align: center;
+}
+
+button {
+  padding: 0.7rem 1.2rem;
+  font-size: 1rem;
+  background-color: #1DB954;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background-color: #1aa34a;
+}
+
+iframe {
+  border-radius: 8px;
+}
